@@ -12,6 +12,7 @@ def is_prime(number):
         check_6k_numbers += 6
     return True
 
+
 low = -1
 high = -1
 array_prime_numbers = []
