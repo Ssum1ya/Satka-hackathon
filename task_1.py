@@ -5,11 +5,11 @@ def is_prime(number):
         return True
     elif number % 3 == 0 or number % 2 == 0:
         return False
-    i = 5
-    while i ** 2 <= number:
-        if number % i == 0 or number % (i + 2) == 0:
+    check_6k_numbers = 5
+    while check_6k_numbers ** 2 <= number:
+        if number % check_6k_numbers == 0 or number % (check_6k_numbers + 2) == 0:
             return False
-        i += 6
+        check_6k_numbers += 6
     return True
 
 low = -1
